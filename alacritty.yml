@@ -1,0 +1,75 @@
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
+      normal:
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
+      bright:
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
+colors:
+  name: Atelierforest (dark)
+  author: Chris Kempson
+  primary:
+    background: "#1b1918"
+    foreground: "#a8a19f"
+  cursor:
+    text: "#1b1918"
+    cursor: "#a8a19f"
+  normal:
+    black: "#1b1918"
+    red: "#f22c40"
+    green: "#5ab738"
+    yellow: "#d5911a"
+    blue: "#407ee7"
+    magenta: "#6666ea"
+    cyan: "#00ad9c"
+    white: "#a8a19f"
+  bright:
+    black: "#766e6b"
+    red: "#f22c40"
+    green: "#5ab738"
+    yellow: "#d5911a"
+    blue: "#407ee7"
+    magenta: "#6666ea"
+    cyan: "#00ad9c"
+    white: "#f1efee"
+theme: Atelierforest.dark
+font:
+  normal:
+    family: monospace
+    style: Regular
+
+  bold:
+    family: monospace
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+
+  size: 14
