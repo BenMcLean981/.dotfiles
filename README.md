@@ -12,6 +12,7 @@ All setup will assume you have cloned this repo to `~/.dotfiles`.
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/alacritty.toml ~/.config/alacritty/alacritty.toml
+ln -s ~/.dotfiles/.git-prompt.sh ~/.git-prompt.sh
 ```
 
 ### Install DNF Packages
