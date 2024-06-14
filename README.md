@@ -13,6 +13,9 @@ ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/alacritty.toml ~/.config/alacritty/alacritty.toml
 ln -s ~/.dotfiles/.git-prompt.sh ~/.git-prompt.sh
+
+chmod +x ~/.dotfiles/better-git-branch.sh
+chmod +x ~/.dotfiles/remove-merged-branches.sh
 ```
 
 ### Install DNF Packages
