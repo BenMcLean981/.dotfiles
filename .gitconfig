@@ -5,9 +5,18 @@
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [user]
-	email = 35312653+BenMcLean981@users.noreply.github.com
+	email = 169668286+ben-at-catalyst@users.noreply.github.com
 	name = Ben McLean
 [init]
 	defaultBranch = main
 [core]
-	editor = code --wait
+	editor = vim
+[merge]
+	ff = no
+	commit = no
+[push]
+	autoSetupRemote = true
+[pull]
+	ff = only
+[alias]
+	bb = !~/.dotfiles/better-git-branch.sh
