@@ -46,3 +46,14 @@ alias restart-audio="systemctl --user restart wireplumber pipewire pipewire-puls
 
 export JAVA_HOME="/opt/jdk-21.0.1"
 export PATH=$JAVA_HOME/bin:$PATH
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+alias ll="ls -al"
+alias la="ls -a"
+
+if [ -f ~/.dotfiles/git-completion.bash ]; then
+  . ~/.dotfiles/git-completion.bash
+fi
