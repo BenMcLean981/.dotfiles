@@ -20,3 +20,4 @@
 	ff = only
 [alias]
 	bb = !~/.dotfiles/better-git-branch.sh
+	delete-merged-branches = !~/.dotfiles/delete-merged-branches.sh
